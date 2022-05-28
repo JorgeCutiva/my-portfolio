@@ -1,9 +1,13 @@
 import React from 'react'
 
+import Navbar from 'components/navbar/Navbar'
+import PublicRoutes from 'routes/PublicRoutes'
+
 function App () {
   return (
     <div>
-      <h1>Hello World</h1>
+      <Navbar />
+      <PublicRoutes />
     </div>
   )
 }
